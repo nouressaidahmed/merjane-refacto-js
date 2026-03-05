@@ -6,3 +6,10 @@
 - Pour lancer les tests: `pnpm test`
   - integration only in watch mode `pnpm test:integration`
   - unit only in watch mode `pnpm test:unit`
+
+## Changes made
+
+- Added unit tests for seasonal and expirable products
+- Refactored ProductService to remove duplication
+- Extracted date utilities
+- Simplified controller logic
